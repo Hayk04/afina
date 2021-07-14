@@ -1,0 +1,299 @@
+@media (max-width: 1200px){
+	.reasons__cards{
+		padding-left: 0;
+		padding-right: 0
+	}
+	.rooms__cards{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.about-room__inner{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.afina__inner{
+		padding-right: 10px;
+		padding-left: 10px
+	}
+	.video video{
+		width: auto;
+		max-width: 920px;
+	}
+	.video .col{
+		padding-right: 0;
+		padding-left: 0
+	}
+	.comments__carousel-inner{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.footer__container{
+		padding: 85px 0
+	}
+}
+
+@media (max-width: 1000px){
+	.about-room{
+		background-color: #fff
+	}
+	.nav__container{
+		max-width: 100% !important;
+		padding: 0;
+		margin: 0
+	}
+	.reasons__cards{
+		padding-left: 30px;
+		padding-right: 30px
+	}
+	.video video{
+		max-width: 820px
+	}
+	.footer__top .col{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.footer__address{
+		order: 3;
+		margin-top: 60px
+	}
+}
+
+@media (max-width: 887px){
+	.nav-link{
+		font-size: 17px;
+		line-height: 21px
+	}
+	.carousel__item-title{
+		font-size: 30px !important;
+		line-height: 37px;
+	}
+	.header__carousel-col .carousel-caption{
+		left: 2%;
+		right: 2%
+	}
+	.afina__inner{
+		flex-direction: column;
+		padding-right: 30px;
+		padding-left: 30px;
+		align-items: center
+	}
+	.afina__info{
+		margin-bottom: 85px;
+		width: auto;
+		margin-right: 0
+	}
+	.afina__info .title{
+		text-align: center
+	}
+	.afina__info-btn{
+		width: 210px;
+		margin: 0 auto;
+		display: block;
+		padding: 10px 43px
+	}
+	.afina__contacts{
+		width: auto;
+		max-width: 420px;
+		padding: 60px 30px
+	}
+	.video video{
+		max-width: 700px
+	}
+	.comments__carousel-control{
+		width: 7%;
+	}
+	.comments__carousel-item{
+		padding-left: 50px;
+		padding-right: 50px
+	}
+}
+
+@media (max-width: 768px){
+	.nav__container{
+		display: none
+	}
+	.header__nav{
+		display: block
+	}
+	.navbar-toggler{
+		margin-left: auto;
+		border: none;
+	}
+	.header__nav-pd{
+		padding-right: 0
+	}
+	.nav-item{
+		margin-bottom: 10px
+	}
+	.nav-link{
+		display: inline-block
+	}
+	.video video{
+		max-width: 600px
+	}
+	.footer__top .col{
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-items: center
+	}
+	.footer__address{
+		order: 1;
+		margin-top: 0;
+		width: 98%;
+		margin-bottom: 20px
+	}
+	.footer__address-img{
+		margin-bottom: 25px
+	}
+	.footer__address-txt{
+		width: 100%
+	}
+	.br1{
+		display: none
+	}
+	.footer__contacts{
+		order: 2;
+		width: 98%
+	}
+	.footer__contacts-phone{
+		display: block
+	}
+	.footer__nav{
+		order: 3;
+		width: 98%;
+		text-align: center;
+		margin-top: 85px
+	}
+}
+
+@media (max-width: 667px){
+	.header__top{
+		flex-direction: column;
+		text-align: center
+	}
+	.header__top-logo{
+		order: 1;
+		margin-bottom: 30px
+	}
+	.header__top-contacts{
+		order: 2;
+		justify-content: center;
+		width: 100%
+	}
+	.header__top-contacts_txt{
+		text-align: center
+	}
+	.header__top-contacts_img{
+		display: none
+	}
+	.header__top-address{
+		order: 3;
+		width: 100%;
+		justify-content: center
+	}
+	.header__top-address_img{
+		display: none
+	}
+	.carousel__item-title{
+		justify-content: center
+	}
+	.carousel__item-info{
+		display: none !important
+	}
+	.header__bottom-info{
+		display: flex !important;
+		margin-bottom: 20px
+	}
+	.carosel__item-caption{
+		display: block;
+		text-align: center
+	}
+	.reasons__cards{
+		padding-left: 0;
+		padding-right: 0
+	}
+	.reasons__card-img{
+		max-width: 580px;
+	}
+	.about-room__inner{
+		flex-direction: column;
+	}
+	.about-room__inner .col:first-child{
+		margin-bottom: 100px
+	}
+	.about-room__inner .title{
+		text-align: center
+	}
+	.video video{
+		max-width: 500px
+	}
+}
+
+@media (max-width: 530px){
+	.video video{
+		max-width: 450px
+	}
+}
+
+@media (max-width: 480px){
+	.rooms__cards{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.rooms__card{
+		height: auto;
+	}
+	.rooms__card-body{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.afina__inner{
+		padding-left: 10px;
+		padding-right: 10px
+	}
+	.video video{
+		max-width: 400px
+	}
+	.comments__carousel-item{
+		padding-left: 30px;
+		padding-right: 30px
+	}
+}
+
+@media (max-width: 420px){
+	.video video{
+		max-width: 330px
+	}
+}
+
+@media (max-width: 360px){
+	.rooms__card-price p{
+		font-size: 16px;
+		line-height: 20px
+	}
+	.rooms__card-btn{
+		font-size: 14px
+	}
+	.about-room__inner .col:first-child{
+		margin-bottom: 60px
+	}
+	.video video{
+		max-width: 300px
+	}
+	.header__carousel-container{
+		padding-right: 0;
+		padding-left: 0
+	}
+	.carousel__item-info_contacts{
+		padding: 20px 30px
+	}
+}
+
+@media (max-width: 320px){
+	.video video{
+		max-width: 280px
+	}
+	.footer__contacts-phone{
+		font-size: 30px
+	}
+}
